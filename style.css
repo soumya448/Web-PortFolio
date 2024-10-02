@@ -319,14 +319,15 @@ circles li:nth-child(14){
 
 
 nav {
-    /* display: flex;
-    justify-content: center; */
+    display: flex;
+    justify-content: center;
     position: absolute;
-    background-color: #3a6fff;
+    background-color: #666bcf;
     padding: 10px 0;
     text-align: center;
-    margin: 2vh 40vw;
-    border-radius: 24px;
+    margin: 20px;
+    top: 30vh;
+    border-radius: 40px;
     z-index: 5;
 }
 
@@ -334,17 +335,42 @@ nav ul {
     list-style-type: none;
 }
 
-nav ul li {
+/* nav ul li {
     display: inline;
     margin: 0 20px;
-}
+} */
 
-nav ul li a {
+/* nav ul li a {
     color: white;
     text-decoration: none;
     font-size: 18px;
+} */
+
+/* nav ul li a:hover {
+    color: #ff9900;
+} */
+
+/* #gito::before{
+    content: url(./Resources/Git.png);
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+} */
+
+/* #gito{
+    width: 50px;
+    height: 50px;
+} */
+
+.icon{
+    justify-content: center;
+    width: 50px;
+    height: 50px;
 }
 
-nav ul li a:hover {
-    color: #ff9900;
+#linked{
+    width: 75px;
+    height: 75px;
 }
