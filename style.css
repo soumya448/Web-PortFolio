@@ -21,7 +21,7 @@ body {
 
 h1 {
     font-size: 3rem;
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 0.2px 0.2px 2px black;
 }
 
 header p {
@@ -152,6 +152,7 @@ footer a {
     top: 28vh;
     /* background-color: red; */
     margin: 0% 10%;
+    animation: peekOut 1s ease forwards; /* Animation settings */
     
 }
 
@@ -593,16 +594,19 @@ nav:hover{
     font-weight: 750;
     font-style: normal;
     text-shadow: 2px 2px 2px black;
+    
 }
 
 #brace1{
     top: 8%;
     left: 60%;
+    
 }
 
 #brace2{
     top: 48%;
     left: 78%;
+    
 }
 
 .floating {  
@@ -618,4 +622,23 @@ nav:hover{
     from { transform: translate(0,  0px); }
     65%  { transform: translate(0, 15px); }
     to   { transform: translate(0, -0px); }    
+}
+
+
+
+
+/* Keyframes for the peek out animation */
+@keyframes peekOut {
+    0% {
+        transform: translateX(0); /* Start position */
+        opacity: 0; /* Start hidden */
+    }
+    50% {
+        transform: translateX(50px); /* Move slightly to the right */
+        opacity: 1; /* Fully visible */
+    }
+    100% {
+        transform: translateX(0); /* Move back to original position */
+        opacity: 1; /* Remain fully visible */
+    }
 }
