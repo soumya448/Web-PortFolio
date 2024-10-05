@@ -146,8 +146,6 @@ footer a {
 
 
 .context {
-
-    display: flex;
     width: 50%;
     position: absolute;
     top: 28vh;
