@@ -704,3 +704,9 @@ nav:hover{
     text-decoration: none;
     
 }
+
+h6{
+    font-size: 16px;
+    color: #007bff;
+    padding-left: 4px;
+}
