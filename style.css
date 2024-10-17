@@ -661,7 +661,7 @@ nav:hover{
     flex-direction: column;
     gap: 50px;
     margin: 20px 120px;
-    padding-top: 130px;
+    padding-top: 110px;
   }
   
   .project-slab {
@@ -690,7 +690,17 @@ nav:hover{
   }
   
   .project-image img {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: cover;
+    /* max-width: 100%;
+    max-height: 100%; */
+    /* object-fit:fill; */
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
   }
+
+
+  .project-link2 {
+    color: #000000;
+    text-decoration: none;
+    
+}
