@@ -17,3 +17,6 @@ document.addEventListener('DOMContentLoaded', () => {
     // Continuously create cubes
     setInterval(createCube, 300); // Adjust the frequency of cube creation
 });
+
+
+
