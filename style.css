@@ -726,3 +726,9 @@ h6{
 /* .skills-container{
     background-color: #666bcf ;
 } */
+ 
+
+#meetme{
+    color: #fff;
+    z-index: 100;
+}
