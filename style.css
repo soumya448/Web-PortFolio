@@ -76,17 +76,18 @@ h2 {
     justify-content: center;
     gap: 100px;
     flex-wrap: wrap;
-    background-color: #666bcf;
+    background-color: #4e54c8;
     padding: 60px;
 }
 
 .skill-card, .project-card {
-    background: #f8f9fa;
+    background: #ffffff;
+    font-family: "Poppins", sans-serif;
     padding: 60px;
     border: 1px solid #ddd;
-    width: 350px;
+    width: 400px;
     height: 350px;
-    border-radius: 8px;
+    border-radius: 50px;
     text-align: left;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -718,7 +719,7 @@ h6{
 
 #aboutme{
     height: 60vh;
-    background-color: #666bcf;
+    background-color: 4e54c8;
     z-index: -40;
 }
 
@@ -731,4 +732,14 @@ h6{
 #meetme{
     color: #fff;
     z-index: 100;
+}
+
+.logos{
+    height: 30px;
+    text-align: center;
+    padding: 0px 40%;
+}
+
+.tex{
+    text-align: center;
 }
