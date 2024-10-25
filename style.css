@@ -123,12 +123,17 @@ h2 {
 
 footer {
     padding: 20px;
-    background: #f8f9fa;
+    background: #007bff;
     text-align: center;
 }
 
 footer a {
-    color: #007bff;
+    color: #f8f9fa;
+    text-decoration: none;
+}
+
+footer p {
+    color: #f8f9fa;
     text-decoration: none;
 }
 
@@ -582,7 +587,6 @@ nav:hover{
     left: 65%;
     overflow: hidden;
     object-fit:contain;
-    /* background-color: red; */
     height: auto;
     width: 350px;
     border-radius: 80px;
