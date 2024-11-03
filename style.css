@@ -747,3 +747,30 @@ h6{
 .tex{
     text-align: center;
 }
+
+
+@media (max-width: 1193px){
+    #about{
+        font-size:200%;
+    }
+
+    .img-container{
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+    }
+
+    #my-image{
+        width: 150px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .context h1 {
+        font-size: 3vh;
+    }
+
+    .image-braces-class{
+        font-size: 50px;
+    }
+}
