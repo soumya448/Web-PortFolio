@@ -773,8 +773,20 @@ h6{
         border-radius: 80px;
     }
 
+    .context{
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center;
+        top: 48vh;
+        width: 100%;
+        margin: 0px 0px;
+
+    }
+
     .context h1 {
-        font-size: 3vh;
+        font-size: 4vh;
+        text-align: center;
     }
 
     .image-braces-class{
