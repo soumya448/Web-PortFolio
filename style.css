@@ -382,14 +382,14 @@ nav ul li {
 } */
 
 .icon{
-    display: block;
+    display: flex;
     justify-content: center;
     width: 50px;
     height: 50px;
 }
 
 #linked{
-    display: block;
+    display: flex;
     width: 52px;
     height: 52px;
 }
