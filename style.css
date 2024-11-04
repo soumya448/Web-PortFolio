@@ -339,7 +339,7 @@ nav {
     justify-content: center;
     position: absolute;
     background-color: #666bcf;
-    padding: 10px 0;
+    padding: 10px;
     text-align: center;
     margin: 20px;
     top: 30vh;
@@ -387,8 +387,8 @@ nav ul {
 }
 
 #linked{
-    width: 75px;
-    height: 75px;
+    width: 52px;
+    height: 52px;
 }
 
 nav:hover{
@@ -824,5 +824,22 @@ h6{
 
     .content__container:after, .content__container:before{
         font-size: 15px;
+    }
+    
+    nav{
+        top: 0px;
+        
+    }
+
+    nav ul{
+        display: flex;
+        gap: 20px;
+        padding-bottom: 0px;
+    }
+
+    .nav_container{
+        display: flex;
+        justify-content: center;
+    
     }
 }
