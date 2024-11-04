@@ -339,22 +339,23 @@ nav {
     justify-content: center;
     position: absolute;
     background-color: #666bcf;
-    padding: 10px;
+    /* padding: 10px; */
     text-align: center;
     margin: 20px;
     top: 30vh;
     border-radius: 40px;
     z-index: 5;
+    
 }
 
 nav ul {
     list-style-type: none;
+    gap: 20px;
 }
 
-/* nav ul li {
-    display: inline;
-    margin: 0 20px;
-} */
+nav ul li {
+    padding: 10px;
+}
 
 /* nav ul li a {
     color: white;
@@ -834,10 +835,9 @@ h6{
     }
 
     nav ul{
-        list-style-type: none;
         display: flex;
-        gap: 20px;
-        padding: 0;
+        /* gap: 20px; */
+        padding: 10px;
         margin: 0;
     }
 
@@ -845,5 +845,9 @@ h6{
         display: flex;
         justify-content: center;
     
+    }
+    
+    nav ul li {
+        padding: 0;
     }
 }
