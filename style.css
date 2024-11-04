@@ -168,7 +168,7 @@ footer p {
 .context h1{
     text-align:left;
     color: #fff;
-    font-size: 6vw;
+    font-size: 5vw;
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -403,25 +403,25 @@ nav:hover{
 
 .content {
     position: absolute;
-    top: 80%;
+    top: 85%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 160px;
+    height: 200px;
     overflow: hidden;
     font-family: "Source Code Pro", monospace;
     font-optical-sizing: auto;
     font-weight: 20;
     font-style: normal;
     font-size: 20px;
-    line-height: 40px;
+    line-height: 100px;
     color: #ecf0f1;
     z-index: 10;
 }
 .content__container {
-    font-weight: 600;
+    font-weight: 1000;
     overflow: hidden;
     height: 40px;
-    padding: 0 40px;
+    padding: 0 20px;
 }
 .content__container:before {
     content: '{';
@@ -452,8 +452,8 @@ nav:hover{
 }
 .content__container__list {
     margin-top: 0;
-    padding-left: 30px;
-    text-align: left;
+    /* padding-left: 30px; */
+    text-align: center;
     list-style: none;
     -webkit-animation-name: change;
     -webkit-animation-duration: 10s;
@@ -592,7 +592,7 @@ nav:hover{
     overflow: hidden;
     object-fit:contain;
     height: auto;
-    width: 20vw;
+    width: 18vw;
     border-radius: 80px;
 }
 
@@ -816,5 +816,13 @@ h6{
         gap: 120px;
         /* padding-left: 3%; */
         padding-right: 20px;
+    }
+
+    .content{
+        font-size: 10px;
+    }
+
+    .content__container:after, .content__container:before{
+        font-size: 15px;
     }
 }
