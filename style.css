@@ -168,7 +168,7 @@ footer p {
 .context h1{
     text-align:left;
     color: #fff;
-    font-size: 10vh;
+    font-size: 6vw;
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -592,7 +592,7 @@ nav:hover{
     overflow: hidden;
     object-fit:contain;
     height: auto;
-    width: 350px;
+    width: 20vw;
     border-radius: 80px;
 }
 
@@ -607,11 +607,12 @@ nav:hover{
     padding-right: 6vw;
     
     
+    
 }
 
 .image-braces-class{
     align-content: center;
-    font-size: 200px;
+    font-size: 11vw;
     color: white;
     z-index: 12;
     font-family: "Quicksand", sans-serif;
@@ -812,7 +813,8 @@ h6{
         justify-content: center; 
         align-items: center;
         top: 28%;
-        gap: 15vw;
-        padding-left: 4%;
+        gap: 120px;
+        /* padding-left: 3%; */
+        padding-right: 20px;
     }
 }
