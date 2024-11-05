@@ -866,6 +866,12 @@ h6{
 
     .project-container{
         padding-top: 50px;
+        margin: 20px 15vw;
+    }
+
+    .project-slab{
+        flex-direction: column-reverse;
+        height: 500px;
     }
 }
 
