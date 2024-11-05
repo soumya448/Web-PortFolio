@@ -110,10 +110,10 @@ h2 {
     height: 10px;
 }
 
-.project-card p {
+/* .project-card p {
     margin-bottom: 20px;
     font-size: 1rem;
-}
+} */
 
 .project-link {
     color: #007bff;
@@ -893,7 +893,15 @@ h6{
     }
 
     .project-card{
-        padding: 11vw;
+        padding: 12vw 6vw 6vw 6vw;
         height: 100vw;
+    }
+
+    .tex{
+        font-size: 1.2em;
+    }
+
+    .projects-container{
+        padding: 3em;
     }
 }
