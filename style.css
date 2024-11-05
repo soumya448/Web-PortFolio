@@ -873,6 +873,10 @@ h6{
         flex-direction: column-reverse;
         height: 500px;
     }
+
+    .project-card{
+        /* padding: 8vw; */
+    }
 }
 
 
@@ -884,5 +888,10 @@ h6{
 
     .responsive-proj{
         font-size: 15vw;
+    }
+
+    .project-card{
+        padding: 14vw;
+        height: 120vw;
     }
 }
