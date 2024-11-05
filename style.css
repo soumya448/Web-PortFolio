@@ -808,11 +808,13 @@ h6{
     .context{
         display: flex;
         flex-direction: column;
-        justify-content: center; 
+        justify-content: center;
         align-items: center;
         top: 48vh;
-        width: 100%;
+        width: 90%;
         margin: 0px 0px;
+        z-index: 34;
+        padding-left: 10%;
 
     }
 
