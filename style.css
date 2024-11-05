@@ -905,3 +905,15 @@ h6{
         padding: 3em;
     }
 }
+
+
+@media (max-height: 716px)
+{
+    #my-image{
+        width: 19vh;
+    }
+
+    .image-braces-class{
+        font-size: 7vh;
+    }
+}
